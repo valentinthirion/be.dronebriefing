@@ -99,7 +99,6 @@
 				<quote>
 					 <a href="https://www.spaceweatherlive.com/en/auroral-activity/the-kp-index" >Source</a>
 				</quote>
-				
 			</li>
 		</ol>
 	</div>

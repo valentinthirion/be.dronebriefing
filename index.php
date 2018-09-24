@@ -79,6 +79,8 @@
 <!-- 							<li <?php  menuBar($currentPage, "list"); ?>><a href="index.php?page=list">List</a></li> -->
 <!-- 							<li <?php  menuBar($currentPage, "legal"); ?>><a href="index.php?page=legal">Legal</a></li> -->
 							<li <?php  menuBar($currentPage, "infos"); ?>><a href="index.php?page=infos">Infos</a></li>
+							<li <?php  menuBar($currentPage, "plan"); ?>><a href="index.php?page=plan">Plan</a></li>
+							<li><a href="https://github.com/valentinthirion/be.dronebriefing">Fork me on GitHub</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<?php
@@ -115,6 +117,10 @@
 						break;
 					case "infos";
 	                    include("pages/infos.php");
+						$pageLoaded = true;
+						break;
+					case "plan";
+	                    include("pages/plan.php");
 						$pageLoaded = true;
 						break;
 					case "links";
